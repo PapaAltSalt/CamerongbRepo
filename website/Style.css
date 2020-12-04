@@ -19,12 +19,31 @@ body {
 }
 
 
+.Header{
+	background-color:aliceblue;
+	height: 50px;
+	margin-bottom: 0px;
+}
+
+
+.Footer{
+	margin-left: 500px;
+	margin-right: 500px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	
+}
+
+
+
+
+
 
 .image-left {
 	background-image:url("Images/P1020208 final piece 2 copy.jpg");
-	margin-left: 20px;
-	margin-right: 10px;
-	margin-top: 20px;
+	margin-left: 15px;
+	margin-right: 7.5px;
+	margin-top: 15px;
 	height: 570px;
 	flex: 1;
 	border: 2px black;
@@ -35,14 +54,13 @@ body {
 
 .Para-Right {
 	background-color:#F0EBD8;
-	margin-left: 10px;
-	margin-right: 20px;
-	margin-top: 20px;
-	height: 500px;
+	margin-left: 7.5px;
+	margin-right: 15px;
+	margin-top: 15px;
+	height: 570px;
 	flex: 1;
 
 }
-
 
 
 
@@ -56,10 +74,10 @@ img {
 
 .Para-Top {
 	background-color:#F0EBD8;
-	margin-left: 100px;
-	margin-right: 100px;
+	margin-left: 70px;
+	margin-right: 70px;
 	margin-top: 20px;
-	height: 100px;
+	height: 160px;
 }
 
 
@@ -84,3 +102,59 @@ img {
 	width: 100%;
 	height: 100%;
 }
+
+
+p {
+	font-family: "Arial";
+	font-size: 16px;
+	color: #000000;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 0px;
+	
+}
+
+p2 {
+	color: #FFFFFF;
+	opacity: 45%
+
+}
+
+
+
+h1{
+	Font-family: "Arial black";
+	font-size: 35px;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 0px;
+	
+}
+
+h2{
+	Font-family: "Arial black";
+	font-size: 30;
+	margin-top: 5px;
+	margin-left: 60px;
+	margin-right:0px;
+	float: right;
+}
+
+
+
+
+h3{
+	font-family: "Arial black";
+	font-size: 16px;
+	margin-left: 5px;
+	margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
