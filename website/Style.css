@@ -20,9 +20,80 @@ body {
 
 
 .Header{
-	background-color:aliceblue;
+	background-color:black;
 	height: 50px;
 	margin-bottom: 0px;
+	text-align: left;
+}
+
+
+.Header ul{
+	display:inline-flex;
+	list-style: none;
+	color: #FFFFFF;
+}
+
+
+.Header ul li{
+	width: 120px;
+	margin-left: 15px;
+	box-sizing: border-box;
+	
+}
+
+.Header ul li a{
+	text-decoration: none;
+	color:#FFFFFF;
+	
+}
+
+
+
+.Header .fa{
+	margin-right: 8px;
+	
+}
+
+
+.Sub-Menu1{
+	display: none;
+	
+}
+.Header ul li:hover .Sub-Menu1{
+	display:block;
+	position:absolute;
+	background-color: #1D2D44;
+	margin-top: 15px;
+	margin-left: -15px;
+	
+}
+
+.Header ul li:hover .Sub-Menu1 ul{
+	display:block;
+	margin: 10px;
+	
+}
+
+.Header ul li:hover .Sub-Menu1 ul li{
+	width: 150;
+	padding: 10px;
+	border-bottom: 1px dotted #FFFFFF;
+	background: transparent;
+	border-radious: 0;
+	text-align: left;
+	
+}
+
+
+.Header ul li:hover .Sub-Menu1 ul li:last-child{
+	border-bottom: none
+	
+}
+
+
+.Header ul li:hover .Sub-Menu1 ul li a:hover{
+	color:#3E5C76
+	
 }
 
 
