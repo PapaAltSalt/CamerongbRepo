@@ -20,7 +20,7 @@ body {
 
 
 .Header{
-	background-color: black;
+	background-color: none;
 	height: 50px;
 	margin-bottom: 0px;
 	text-align: left;
@@ -57,6 +57,7 @@ body {
 
 
 .Sub-Menu1{
+	z-index: 2;
 	display: none;
 	
 }
@@ -64,7 +65,7 @@ body {
 	display:block;
 	position:absolute;
 	background-color: #1D2D44;
-	margin-top: 3px;
+	margin-top: 0px;
 	margin-left: -15px;
 	
 }
@@ -183,6 +184,17 @@ p2 {
 }
 
 
+p3 {
+	font-family: "Arial";
+	font-size: 16px;
+	color:#FFFFFF;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	opacity: 80%;
+}
+
+
 h1{
 	Font-family: "Arial black";
 	font-size: 35px;
@@ -235,6 +247,18 @@ h5{
 }
 
 
+H6{
+	font-family: "Arial";
+	font-size: 22px;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	text-decoration: underline;
+	color: #F0EBD8;
+	opacity: 80%;
+}
+
+
 .Para-Top-Services {
 	background-color: none;
 	margin-left: 70px;
@@ -244,7 +268,7 @@ h5{
 }
 
 
-.Flex-Container-Services {
+.Flex-Container-Services-Top {
 	display: flex;
 }
 
@@ -268,6 +292,87 @@ background-image:url("Images/Mexican_Album_02 copy.png");
 	margin-left: 20px;
 	margin-right: 40px;
 	margin-top: 30px;
+	flex: 1;
+}
+
+
+
+.Flex-Container-Services-Top-Paragraph {
+	display: flex;
+}
+
+
+.Top-Left-Paragraph {
+	Background-color: none;
+	margin-left: 40px;
+	margin-right: 20px;
+	margin-top: 15px;
+	flex: 1;
+	border: 2px black;
+}
+
+
+.Top-Right-Paragraph {
+	Background-color: none;
+	margin-left: 20px;
+	margin-right: 40px;
+	margin-top: 15px;
+	flex: 1;
+}
+
+
+
+.Flex-Container-Services-Bottom {
+	display: flex;
+}
+
+
+.Bottom-Left-Image {
+background-image:url("Images/mr robot copy.png");
+	width: 30%;
+    height: auto;
+	margin-left: 40px;
+	margin-right: 20px;
+	margin-top: 30px;
+	flex: 1;
+	border: 2px black;
+	}
+
+
+.Bottom-Right-Image {
+	background-image:url("Images/IMG_0070 copy.JPG");
+	width: 30%;
+    height: auto;
+	margin-left: 20px;
+	margin-right: 40px;
+	margin-top: 30px;
+	flex: 1;
+}
+
+
+
+.Flex-Container-Services-Bottom-Paragraph {
+	display: flex;
+}
+
+
+.Bottom-Left-Paragraph {
+	Background-color: none;
+	margin-left: 40px;
+	margin-right: 20px;
+	margin-top: 15px;
+	margin-bottom: 40px;
+	flex: 1;
+	border: 2px black;
+}
+
+
+.Bottom-Right-Paragraph {
+	Background-color: none;
+	margin-left: 20px;
+	margin-right: 40px;
+	margin-top: 15px;
+	margin-bottom: 40px;
 	flex: 1;
 }
 
