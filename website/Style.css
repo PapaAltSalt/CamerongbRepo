@@ -398,23 +398,21 @@ background-image:url("Images/mr robot copy.png");
 }
 
 .topbar{
-	width: 100%;
+	width: 50%;
 	height: 50px;
-	display: flex;
 	align-items: center;
-	padding-left: 20px;
 	background:#FFFFFF;
-	position: fixed;
-	top: 0;
-	z-index: 10;
+	margin-left: 25%;
+	margin-top: 20px;
+
 }
 
 .tabs{
 	display: flex;
-	align-items: center;
+	align-items:center;
 	font-size: 20px;
-	position:absolute;
-	right: 20px;
+	
+
 }
 
 
@@ -444,13 +442,13 @@ background-image:url("Images/mr robot copy.png");
 
 .container{
 	position: relative;
-	column-count: 4;
+	column-count: 2;
 	padding: 20px;
 }
 
 
 .image{
-	display: none;
+	display:block;
 	margin-bottom: 10px;
 	overflow: hidden;
 }
