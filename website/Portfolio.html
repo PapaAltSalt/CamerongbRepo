@@ -47,21 +47,163 @@
 		
 		
 		
-	<div class="Photography-Heading"> 
 		
-		<h6>Photography</h6> 
+	<div class= "topbar" id="topbar">
+		
+		<div class="tabs">
+			<div class="tab all" onclick="filterSelection('all')">All</div>
+			<div class="tab Photography" onclick="filterSelection('Photography')">Photography</div>
+			<div class="tab Digital Art" onclick="filterSelection('Digital Art')">Digital Art</div>				
+		</div>
+		</div>
+		<div class="container">		
+			<div class="image digital art">
+				<img src="Images/Mexican_Album_02 copy.png" alt="sorry">			
+			</div>
+		
+			<div class="image digital art">
+				<img src="Images/Album_Cover_J copy.png" alt="sorry">			
+			</div>
+			
+			<div class="image digital art">
+				<img src="Images/Experiment copy.png" alt="sorry">			
+			</div>		
+			
+			<div class="image digital art">
+				<img src="Images/Experiment black white circle copy.png" alt="sorry">			
+			</div>			
+			
+			<div class="image digital art">
+				<img src="Images/Game_Over copy.png" alt="sorry">			
+			</div>			
+			
+			<div class="image digital art">
+				<img src="Images/6_Yhorm stylized copy.png" alt="sorry">			
+			</div>			
+			
+			<div class="image digital art">
+				<img src="Images/mr robot copy.png" alt="sorry">			
+			</div>			
+			
+			<div class="image digital art">
+				<img src="Images/green forest copy.jpg" alt="sorry">			
+			</div>			
+			
+			<div class="image digital art">
+				<img src="Images/Mountains pine new copy.jpg" alt="sorry">			
+			</div>			
+			
+			<div class="image digital art">
+				<img src="Images/blue and grey forest copy.jpg" alt="sorry">			
+			</div>			
+			
+			<div class="image photography">
+				<img src="Images/test flower copy.jpg" alt="sorry">			
+			</div>
 	
-	</div>
-		
-		
-		
-		
-	<div class="DigitalArt-Heading"> 
-		
-		<h6>Digital Art</h6> 
+			<div class="image photography">
+				<img src="Images/P1010453 copy.JPG" alt="sorry">			
+			</div>			
 	
-	</div>
+			<div class="image photography">
+				<img src="Images/P1020072 copy.JPG" alt="sorry">			
+			</div>			
+			
+			<div class="image photography">
+				<img src="Images/IMG_0071 copy.JPG" alt="sorry">			
+			</div>			
+			
+			<div class="image photography">
+				<img src="Images/P1020228 edit 3-2 copy.jpg" alt="sorry">			
+			</div>			
+			
+			<div class="image photography">
+				<img src="Images/IMG_0068 copy.JPG" alt="sorry">			
+			</div>			
+			
+			<div class="image photography">
+				<img src="Images/IMG_0127 copy.JPG" alt="sorry">			
+			</div>			
+			
+			<div class="image photography">
+				<img src="Images/aDSC_0034 final piece copy.jpg" alt="sorry">			
+			</div>				
+			
+			<div class="image photography">
+				<img src="Images/P1020208 final piece 2 copy.jpg" alt="sorry">			
+			</div>				
+			
+			<div class="image photography">
+				<img src="Images/IMG_0145 copy.JPG" alt="sorry">			
+			</div>				
+			
+			<div class="image photography">
+				<img src="Images/P1010319 edit copy.jpg" alt="sorry">			
+			</div>				
+			
+			<div class="image photography">
+				<img src="Images/Blue_Hand copy.jpg" alt="sorry">			
+			</div>				
+			
+			<div class="image photography">
+				<img src="Images/P1020041 edited 1 copy.jpg" alt="sorry">			
+			</div>				
+			
+	
+	</div>	
+		
+	
+<script>
+	
+	filterSelection("all");
+	
+	function filterSelection(c){
+		var x,y,i,j
+		x=document.getElementsByClassName("image");
+		y=document.getElementsByClassName("tab");
+		
+		for (j=0;j<y.length;j++){
+			RemoveClass(y[j],"active");
+			if(y[j].clasname.indexOf(c)>-1){
+				Addclass(y[j],"active");
+			}
+		}
+		
+		if(c=="all"){
+			c=""
+		}
+		
+		for(i=0;i<x.length;i++){
+			RemoveClass(x[i],"show");
+			if(y[j].clasname.indexOf(c)>-1){
+				Addclass(x[i],"show");
+			}
+		}
+	}
+		
+		
+		function AddClass(element,name){
+			element.claslist.add(name);	
+		}
+		
+		function RemoveClass(element,name){
+			element.claslist.remove(name);
+		}
+		
+	
 
+</script>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	
 		
 		
 		
