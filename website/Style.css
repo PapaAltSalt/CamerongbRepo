@@ -378,6 +378,40 @@ background-image:url("Images/mr robot copy.png");
 
 
 
+.Main-Portfolio {
+	background-color: #0D1321;
+	margin-left: 500px;
+	margin-right: 500px;
+	height: 100%;
+	display: grid;
+	
+}
+
+
+.Para-Top-Portfolio {
+	background-color: none;
+	margin-left: 70px;
+	margin-right: 70px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 160px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
