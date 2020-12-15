@@ -48,52 +48,52 @@
 		
 		
 		
-	<div class= "topbar" id="topbar">
+	<div class="topbar" id="topbar">
 		
 		<div class="tabs">
 			<div class="tab all" onclick="filterSelection('all')">All</div>
-			<div class="tab Photography" onclick="filterSelection('Photography')">Photography</div>
-			<div class="tab Digital Art" onclick="filterSelection('Digital Art')">Digital Art</div>				
+			<div class="tab photography" onclick="filterSelection('photography')">Photography</div>
+			<div class="tab digitalart" onclick="filterSelection('digitalart')">Digital Art</div>				
 		</div>
 		</div>
 		<div class="container">		
-			<div class="image digital art">
+			<div class="image digitalart">
 				<img src="Images/Mexican_Album_02 copy.png" alt="sorry">			
 			</div>
 		
-			<div class="image digital art">
+			<div class="image digitalart">
 				<img src="Images/Album_Cover_J copy.png" alt="sorry">			
 			</div>
 			
-			<div class="image digital art">
+			<div class="image digitalart">
 				<img src="Images/Experiment copy.png" alt="sorry">			
 			</div>		
 			
-			<div class="image digital art">
+			<div class="image digitalart">
 				<img src="Images/Experiment black white circle copy.png" alt="sorry">			
 			</div>			
 			
-			<div class="image digital art">
+			<div class="image digitalart">
 				<img src="Images/Game_Over copy.png" alt="sorry">			
 			</div>			
 			
-			<div class="image digital art">
+			<div class="image digitalart">
 				<img src="Images/6_Yhorm stylized copy.png" alt="sorry">			
 			</div>			
 			
-			<div class="image digital art">
+			<div class="image digitalart">
 				<img src="Images/mr robot copy.png" alt="sorry">			
 			</div>			
 			
-			<div class="image digital art">
+			<div class="image digitalart">
 				<img src="Images/green forest copy.jpg" alt="sorry">			
 			</div>			
 			
-			<div class="image digital art">
+			<div class="image digitalart">
 				<img src="Images/Mountains pine new copy.jpg" alt="sorry">			
 			</div>			
 			
-			<div class="image digital art">
+			<div class="image digitalart">
 				<img src="Images/blue and grey forest copy.jpg" alt="sorry">			
 			</div>			
 			
@@ -158,40 +158,40 @@
 	filterSelection("all");
 	
 	function filterSelection(c){
-		var x,y,i,j
-		x=document.getElementsByClassName("image");
-		y=document.getElementsByClassName("tab");
+	
+		var images,tabs,i,j
+		images=document.getElementsByClassName("image");
+		tabs=document.getElementsByClassName("tab");
 		
-		for (j=0;j<y.length;j++){
-			RemoveClass(y[j],"active");
-			if(y[j].clasname.indexOf(c)>-1){
-				Addclass(y[j],"active");
+		for (j=0;j<tabs.length;j++){
+			RemoveClass(tabs[j],"active");
+			if(tabs[j].className.indexOf(c)>-1){
+				AddClass(tabs[j],"active");
 			}
 		}
 		
-		if(c=="all"){
-			c=""
+		if(c == "all"){
+			c = "";
 		}
 		
-		for(i=0;i<x.length;i++){
-			RemoveClass(x[i],"show");
-			if(y[j].clasname.indexOf(c)>-1){
-				Addclass(x[i],"show");
+		for(i=0;i<images.length;i++){
+			RemoveClass(images[i],"show");
+			
+			if(images[i].className.indexOf(c)>-1){
+				AddClass(images[i],"show");
 			}
 		}
 	}
 		
 		
-		function AddClass(element,name){
-			element.claslist.add(name);	
-		}
-		
-		function RemoveClass(element,name){
-			element.claslist.remove(name);
-		}
-		
+	function AddClass(element,name){
+		element.classList.add(name);	
+	}
 	
-
+	function RemoveClass(element,name){
+		element.classList.remove(name);
+	}
+		
 </script>
 		
 		

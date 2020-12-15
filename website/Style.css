@@ -411,8 +411,6 @@ background-image:url("Images/mr robot copy.png");
 	display: flex;
 	align-items:center;
 	font-size: 20px;
-	
-
 }
 
 
@@ -423,7 +421,7 @@ background-image:url("Images/mr robot copy.png");
 	font-weight: 600;
 	font-size: 20px;
 	padding: 6px;
-	border-radious: 5px;
+	border-radius: 5px;
 	cursor: pointer;
 	color: #000000;
 }
@@ -448,7 +446,7 @@ background-image:url("Images/mr robot copy.png");
 
 
 .image{
-	display:block;
+	display: none;
 	margin-bottom: 10px;
 	overflow: hidden;
 }
